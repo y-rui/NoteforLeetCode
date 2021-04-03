@@ -21,7 +21,7 @@ class Solution1 {
         for (int i = 0; i < left - 1; i++) {
             pre = pre.next;
         }
-
+ 
         // 第 2 步：从 pre 再走 right - left + 1 步，来到 right 节点
         ListNode rightNode = pre;
         for (int i = 0; i < right - left + 1; i++) {
